@@ -1,0 +1,38 @@
+{
+  "id": "/",
+  "name": "UdyamNotice | MSME 45 Days Payment Interest Calculator & Legal Notice Generator",
+  "short_name": "UdyamNotice",
+  "description": "Calculate statutory compound interest at 3x RBI Bank Rate (20.25% p.a.) under Section 16 of MSMED Act 2006 and Section 43B(h). Generate instant MSME recovery demand notices.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#1E3A8A",
+  "background_color": "#0F172A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

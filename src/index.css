@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  .font-legal-heading {
+    font-family: 'Cinzel', serif;
+  }
+
+  .font-mono-numbers {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Print Specific Rules for Court-Ready Notice */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .legal-document-container {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    background: #ffffff !important;
+  }
+
+  .legal-page {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 24mm 20mm !important;
+    min-height: 297mm;
+    page-break-inside: avoid;
+  }
+
+  .legal-page-break {
+    page-break-before: always !important;
+    break-before: page !important;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 12mm 15mm;
+  }
+}

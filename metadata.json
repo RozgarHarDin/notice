@@ -1,0 +1,7 @@
+{
+  "name": "UdyamNotice",
+  "description": "MSME 45-Days Statutory Delayed Payment Calculator & Notice Generator under MSMED Act 2006 & Section 43B(h)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
